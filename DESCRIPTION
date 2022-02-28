@@ -1,6 +1,6 @@
 Package: perudiv
 Title: Peruvian protected flora and fauna
-Version: 0.0.0.9000
+Version: 0.0.0.1
 Authors@R: 
     c(person(given = "Paul Efren",
            family = "Santos Andrade",
@@ -15,3 +15,9 @@ Config/testthat/edition: 3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
+Imports: 
+    rlang,
+    lifecycle,
+    dplyr
+Depends: 
+    R (>= 2.10)
